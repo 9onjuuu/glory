@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgb(240, 240, 240);
+  width: 100%;
+}
+
+p {
+  word-spacing: 0.15em;
+  line-height: 150%;
+}
+
+.wrap {
+  width: 100%;
+  background-color: black;
+}
+
+.wrap,
+.slide-bar,
+.ui,
+.footer,
+.footer2 {
+  float: left;
+}
+
+.content {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.background,
+.background.content_txt {
+  height: 1400px;
+}
+.background .content_title {
+  height: 1130px;
+}
+
+.pj_goal,
+.pj_goal .content_txt {
+  height: 1452px;
+}
+.pj_goal .content_title {
+  height: 1200px;
+}
+
+.research,
+.research .content_txt {
+  height: 1158px;
+}
+
+.research .content_title {
+  height: 830px;
+}
+
+.solution,
+.solution .content_txt {
+  height: 750px;
+}
+
+.solution .content_title {
+  height: 450px;
+}
+
+.i_a,
+.i_a .content_txt {
+  height: 800px;
+}
+
+.i_a .content_title {
+  height: 500px;
+}
+
+.space {
+  height: 500px;
+}
+
+.content_title {
+  width: 300px;
+  float: left;
+  margin-top: 120px;
+}
+
+.content_title p {
+  color: #c20000;
+  font-size: 35px;
+  /* width: 300px; */
+  width: 25%;
+  font-weight: bold;
+  position: sticky;
+  top: 100px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.content_txt {
+  width: 75%;
+  /* width: 900px; */
+  float: left;
+  overflow: hidden;
+}
+
+.content_txt_wrap {
+  margin-top: 135px;
+  width: 900px;
+  float: left;
+}
+
+.ex {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+p {
+  font-weight: 300;
+}
+
+.ex_graph_txt {
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.graph_title {
+  font-size: 30px;
+  color: #c20000;
+}
+
+.background .graph b {
+  color: #c20000;
+  font-weight: bolder;
+}
+.graph_1 {
+  width: 450px;
+  height: 405px;
+  float: left;
+  margin-top: 80px;
+}
+
+.graph_2 {
+  width: 430px;
+  margin-left: 20px;
+  height: 405px;
+  float: left;
+  margin-top: 80px;
+}
+
+.graph_3 {
+  width: 900px;
+  height: 405px;
+  float: left;
+  margin-top: 120px;
+}
+
+.graph_img img {
+  width: 400px;
+}
+
+.img_ex {
+  font-size: 10px;
+}
+
+.graph_img2 img {
+  width: 774px;
+}
+
+.ex_graph_title {
+  font-size: 24px;
+  color: #c20000;
+  font-weight: bold;
+}
+
+.goal_img img {
+  width: 892px;
+  margin-top: 120px;
+}
+
+.research_img img {
+  width: 892px;
+  margin-top: 64px;
+}
+
+.solution_img img {
+  width: 892px;
+  margin-top: 80px;
+}
+
+.i_a_img img {
+  width: 892px;
+  margin-top: 80px;
+}
+
+.fade-class {
+  position: relative;
+  bottom: -150px;
+  opacity: 0;
+  transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s linear;
+}
+
+.fade-in {
+  transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s linear;
+  bottom: 0;
+  opacity: 1;
+}
+
+.conceal {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+}
+.conceal h1 {
+  color: black;
+}
+
+.ui_experience {
+  background-color: black;
+  width: 100%;
+}
+
+.ui_Report {
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.Report {
+  margin-top: 80px;
+}
+
+.ui_wrap {
+  width: 1200px;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.Report .ui_txt p {
+  color: black;
+}
+
+.ui_title img {
+  width: 157px;
+}
+
+.ui_Report .ui_title img {
+  width: 99px;
+}
+
+.ui_main img {
+  width: 200px;
+}
+
+.ui_main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ui_txt p {
+  font-size: 15px;
+  margin-bottom: 80px;
+}
+
+.ui_content_img img {
+  width: 1200px;
+}
+
+.ui_content_img2 img {
+  width: 1200px;
+}
+
+.ui_content_img3 img {
+  width: 1200px;
+}
+
+.ui_content_img4 img {
+  width: 1200px;
+}
+
+.ui_content_video {
+  margin-top: 120px;
+}
+.ui_content_video video {
+  width: 1000px;
+  margin-left: 100px;
+  float: left;
+}
+.ui_content_video img {
+  width: 1200px;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 160px;
+}
+
+.slide-bar {
+  float: left;
+  width: 100%;
+  height: 600px;
+  background-image: url(img/bg_main.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide_wr {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.slide_left {
+  width: 535px;
+  text-align: left;
+  margin-top: 178px;
+  float: left;
+}
+
+.slide_left p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.slide_left h6 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.slide_left img {
+  width: 200px;
+}
+
+.slide_right {
+  width: 520px;
+  text-align: left;
+  margin-top: 88px;
+  float: left;
+  margin-left: 145px;
+}
+
+.slide_right p {
+  font-size: 15px;
+  line-height: 160%;
+  margin-bottom: 88px;
+  font-weight: 400;
+}
+
+.slide_right img {
+  width: 520px;
+}
+
+.footer {
+  width: 100%;
+  height: 499px;
+  float: left;
+}
+
+.footer_wrap {
+  margin: auto;
+  background-image: url(img/FOOTER.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 499px;
+  float: left;
+}
+
+.footer_txt,
+.footer_img {
+  text-align: center;
+}
+
+.footer_txt {
+  margin-top: 80px;
+}
+
+.footer_txt p {
+  font-size: 30px;
+  color: black;
+}
+
+.footer_txt p b {
+  color: #c20000;
+}
+
+.footer_img img {
+  width: 240px;
+  margin-top: 80px;
+}
+
+.footer2 {
+  width: 100%;
+  height: 500px;
+  background-color: #c20000;
+}
+.footer_2_w {
+  width: 1200px;
+  margin: auto;
+}
+.footer_left {
+  width: 500px;
+  float: left;
+  margin-right: 50px;
+  margin-left: 150px;
+}
+.txt_ftr {
+  height: 200px;
+  margin-top: 150px;
+}
+.txt_ftr p {
+  font-size: 16px;
+}
+
+.txt_ftr h3 {
+  font-size: 30px;
+  margin: 24px 0;
+}
+
+.footer_right {
+  width: 500px;
+  float: left;
+}
+
+.footer_right img {
+  height: 300px;
+  width: 250px;
+  margin: 100px 0;
+  margin-left: 100px;
+}
+
+#img_sequence {
+  width: 1200px;
+  height: 1000px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin: auto;
+}
+
+#img_sequence_2 {
+  width: 1200px;
+  height: 1100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: auto;
+  float: left;
+}
